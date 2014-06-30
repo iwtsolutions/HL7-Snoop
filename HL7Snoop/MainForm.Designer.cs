@@ -177,6 +177,7 @@ namespace HL7Snoop
             this.tbMessage.TabIndex = 9;
             this.tbMessage.WordWrap = false;
             this.tbMessage.TextChanged += new System.EventHandler(this.tbMessage_TextChanged);
+            this.tbMessage.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbMessage_KeyDown);
             // 
             // tbVersion
             // 
@@ -185,6 +186,7 @@ namespace HL7Snoop
             this.tbVersion.Name = "tbVersion";
             this.tbVersion.Size = new System.Drawing.Size(100, 20);
             this.tbVersion.TabIndex = 10;
+            this.tbVersion.Text = "2.3";
             // 
             // label1
             // 
